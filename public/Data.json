@@ -1,0 +1,81 @@
+
+[
+{
+    "id": 1982,
+    "uid": "3184786",
+    "password": "mTlzKgnHjx",
+    "first_name": "Caterina",
+    "last_name": "Stroman",
+    "username": "caterina.stroman",
+    "email": "caterina.stroman@email.com",
+    "avatar": "https://robohash.org/quiconsequaturcommodi.png?size=300x300\u0026set=set1",
+    "gender": "Bigender",
+    "phone_number": "+672 309-068-1538 x07265",
+    "social_insurance_number": "348066689",
+    "date_of_birth": "1985-02-28",
+    "employment": {
+        "title": "Banking Specialist",
+        "key_skill": "Self-motivated"
+    },
+    "address": {
+        "city": "New Jackiefurt",
+        "street_name": "Skiles Burg",
+        "street_address": "222 Zemlak Rapids",
+        "zip_code": "61906",
+        "state": "Illinois",
+        "country": "United States",
+        "coordinates": {
+            "lat": 71.29739583793238,
+            "lng": -162.22764140551797
+        }
+    },
+    "credit_card": {
+        "cc_number": "5335-9275-4759-2807"
+    },
+    "subscription": {
+        "plan": "Platinum",
+        "status": "Pending",
+        "payment_method": "Cash",
+        "term": "Payment in advance"
+    }
+},
+{
+    "id": 6919,
+    "uid": "31904567",
+    "password": "ITWGDdqN3J",
+    "first_name": "Jesus",
+    "last_name": "Torp",
+    "username": "jesus.torp",
+    "email": "jesus.torp@email.com",
+    "avatar": "https://robohash.org/atconsequaturut.png?size=300x300\u0026set=set1",
+    "gender": "Male",
+    "phone_number": "+58 1-685-713-1189 x81441",
+    "social_insurance_number": "568423750",
+    "date_of_birth": "1989-05-17",
+    "employment": {
+        "title": "Investor Advertising Officer",
+        "key_skill": "Proactive"
+    },
+    "address": {
+        "city": "Rempelshire",
+        "street_name": "Hane Forest",
+        "street_address": "3663 Ressie Ridges",
+        "zip_code": "12195-5297",
+        "state": "Alaska",
+        "country": "United States",
+        "coordinates": {
+            "lat": -72.16632843749649,
+            "lng": -167.19516589047484
+        }
+    },
+    "credit_card": {
+        "cc_number": "5374-3395-2125-3160"
+    },
+    "subscription": {
+        "plan": "Standard",
+        "status": "Pending",
+        "payment_method": "Cash",
+        "term": "Payment in advance"
+    }
+}
+]
