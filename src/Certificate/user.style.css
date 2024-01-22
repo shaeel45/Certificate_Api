@@ -1,0 +1,282 @@
+.frame {
+    background-color: wheat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100;
+    
+  }
+  
+  .frame .overlap-wrapper {
+    background-color: red;
+    height: 816px;
+    width: 1054px;
+  }
+  
+  .frame .overlap {
+    height: 816px;
+    position: relative;
+    width: 971px;
+  }
+  
+  .frame .overlap-group {
+    height: 500px;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 800px;
+  }
+  
+  .frame .vector {
+    height: 399px;
+    left: 13px;
+    position: absolute;
+    top: 1px;
+    width: 347px;
+  }
+  
+  .frame .img {
+    height: 83px;
+    left: 298px;
+    position: absolute;
+    top: 0;
+    width: 131px;
+  }
+  
+  .frame .line {
+    height: 146px;
+    left: 255px;
+    position: absolute;
+    top: 0;
+    width: 207px;
+  }
+  
+  .frame .vector-2 {
+    height: 63px;
+    left: 275px;
+    position: absolute;
+    top: 753px;
+    width: 97px;
+  }
+  
+  .frame .vector-3 {
+    height: 271px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 361px;
+  }
+  
+  .frame .logo {
+    height: 192px;
+    left: 485px;
+    object-fit: cover;
+    position: absolute;
+    top: 23px;
+    width: 270px;
+  }
+  
+  .frame .text-wrapper {
+    color: #2acfd1;
+    font-family: "Inknut Antiqua-Regular", Helvetica;
+    font-size: 67px;
+    font-weight: 400;
+    left: 317px;
+    letter-spacing: 6.03px;
+    line-height: normal;
+    position: absolute;
+    top: 126px;
+  }
+  
+  .frame .in-recognition-of {
+    color: #000000;
+    font-family: "IM FELL Great Primer-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 287px;
+    letter-spacing: 1.92px;
+    line-height: 35.7px;
+    position: absolute;
+    text-align: center;
+    top: 444px;
+    width: 684px;
+  }
+  
+  .frame .appreciation {
+    height: 75px;
+    left: 428px;
+    position: absolute;
+    top: 242px;
+    width: 360px;
+  }
+  
+  .frame .div {
+    height: 75px;
+    position: relative;
+    width: 358px;
+  }
+  
+  .frame .text-wrapper-2 {
+    color: #003466;
+    font-family: "Inknut Antiqua-Medium", Helvetica;
+    font-size: 29px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 2.32px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .frame .line-2 {
+    height: 1px;
+    left: 10px;
+    object-fit: cover;
+    position: absolute;
+    top: 66px;
+    width: 339px;
+  }
+  
+  .frame .line-3 {
+    height: 1px;
+    left: 327px;
+    object-fit: cover;
+    position: absolute;
+    top: 430px;
+    width: 598px;
+  }
+  
+  .frame .areesha-lead {
+    height: 68px;
+    left: 358px;
+    position: absolute;
+    top: 708px;
+    width: 269px;
+  }
+  
+  .frame .overlap-2 {
+    height: 68px;
+    position: relative;
+    width: 265px;
+  }
+  
+  .frame .text-wrapper-3 {
+    color: #003466;
+    font-family: "Inknut Antiqua-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 2.16px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .frame .text-wrapper-4 {
+    color: #000000;
+    font-family: "IM FELL Great Primer-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 98px;
+    letter-spacing: 1.44px;
+    line-height: normal;
+    position: absolute;
+    top: 46px;
+  }
+  
+  .frame .line-4 {
+    height: 3px;
+    left: 23px;
+    object-fit: cover;
+    position: absolute;
+    top: 3px;
+    width: 216px;
+  }
+  
+  .frame .rectangle {
+    height: 370px;
+    left: 0;
+    position: absolute;
+    top: 446px;
+    width: 509px;
+  }
+  
+  .frame .polygon {
+    height: 386px;
+    left: 0;
+    position: absolute;
+    top: 430px;
+    width: 426px;
+  }
+  
+  .frame .polygon-2 {
+    height: 395px;
+    left: 0;
+    position: absolute;
+    top: 234px;
+    width: 159px;
+  }
+  
+  .frame .vector-4 {
+    height: 197px;
+    left: 0;
+    position: absolute;
+    top: 422px;
+    width: 154px;
+  }
+  
+  .frame .line-5 {
+    height: 127px;
+    left: 218px;
+    position: absolute;
+    top: 689px;
+    width: 180px;
+  }
+  
+  .frame .p {
+    color: #000000;
+    font-family: "IM FELL Great Primer-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 433px;
+    letter-spacing: 1.92px;
+    line-height: normal;
+    position: absolute;
+    top: 318px;
+  }
+  
+  .frame .hamzah-lead {
+    height: 72px;
+    left: 720px;
+    position: absolute;
+    top: 708px;
+    width: 238px;
+  }
+  
+  .frame .overlap-3 {
+    height: 72px;
+    position: relative;
+    width: 234px;
+  }
+  
+  .frame .text-wrapper-5 {
+    color: #000000;
+    font-family: "IM FELL Great Primer-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 82px;
+    letter-spacing: 1.44px;
+    line-height: normal;
+    position: absolute;
+    top: 50px;
+  }
+  
+  .frame .line-6 {
+    height: 4px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 5px;
+    width: 219px;
+  }
+  
