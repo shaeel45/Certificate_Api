@@ -1,282 +1,243 @@
-.frame {
-    background-color: wheat;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100;
-    
-  }
-  
-  .frame .overlap-wrapper {
-    background-color: red;
-    height: 816px;
-    width: 1054px;
-  }
-  
-  .frame .overlap {
-    height: 816px;
-    position: relative;
-    width: 971px;
-  }
-  
-  .frame .overlap-group {
-    height: 500px;
-    left: 0;
-    position: relative;
-    top: 0;
-    width: 800px;
-  }
-  
-  .frame .vector {
-    height: 399px;
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&family=Italianno&display=swap');
+
+.index {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 4%;
+ 
+}
+
+.top{
+  top: 48%;
+}
+
+.index .overlap-wrapper {
+  background-color: #1e1e1e;
+  height: 358px;
+  overflow: hidden;
+  width: 503px;
+}
+
+.index .overlap {
+  height: 680px;
+  left: -285px;
+  position: relative;
+  top: -26px;
+  width: 935px;
+}
+
+.index .set {
+  height: 680px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 935px;
+}
+
+.index .overlap-group {
+  background-image: url(https://cdn.animaapp.com/projects/65ad1f7fdb68d09621762010/releases/65be0a8548be0fa36409965a/img/ellipse-8.png);
+  background-size: 100% 100%;
+  height: 358px;
+  left: 285px;
+  position: relative;
+  top: 26px;
+  width: 503px;
+}
+
+.index .ellipse {
+  height: 358px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 503px;
+}
+
+.index .logo {
+  height: 90px;
+  left: 189px;
+  object-fit: cover;
+  position: absolute;
+  top: 8px;
+  width: 126px;
+}
+
+.index .text-wrapper {
+  color: #2acfd1;
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 32px;
+  font-weight: 400;
+  left: 106px;
+  letter-spacing: 2.88px;
+  line-height: normal;
+  position: absolute;
+  top: 59px;
+}
+
+.index .div {
+  color: #d0d9dd;
+  font-family: "Inknut Antiqua", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  left: 165px;
+  letter-spacing: 1.12px;
+  line-height: normal;
+  position: absolute;
+  top: 110px;
+}
+
+.index .group {
+  height: 251px;
+  left: 386px;
+  position: absolute;
+  top: 54px;
+  width: 117px;
+}
+
+.index .img {
+  height: 251px;
+  left: 0;
+  position: absolute;
+  top: 61px;
+  width: 117px;
+}
+
+.index .hamza {
+  height: 47px;
+  left: 567px;
+  object-fit: cover;
+  position: absolute;
+  top: 248px;
+  width: 78px;
+}
+
+.index .whatsapp-image {
+  height: 65px;
+  left: 424px;
+  object-fit: cover;
+  position: absolute;
+  top: 239px;
+  width: 80px;
+}
+
+.index .areesha-lead {
+  height: 44px;
+  left: 383px;
+  position: absolute;
+  top: 303px;
+  width: 137px;
+}
+
+.index .overlap-2 {
+  height: 45px;
+  position: relative;
+  top: -1px;
+  width: 133px;
+}
+
+.index .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Inknut Antiqua", Helvetica;
+  font-size: 10px;
+  font-weight: 200;
+  left: 22px;
+  width: 173px;
+  letter-spacing: 1.08px;
+  line-height: normal;
+  position: absolute;
+  top: 1px;
+}
+
+
+.index .text-wrapper-3 {
+  color: #2acfd1d9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  left: 56px;
+  letter-spacing: 1.04px;
+  line-height: normal;
+  position: absolute;
+  top: 25px;
+}
+
+.index .line {
+  height: 2px;
+  left: 19px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 121px;
+}
+
+.index .hamzah-lead {
+  height: 43px;
+  left: 537px;
+  position: absolute;
+  top: 302px;
+  width: 121px;
+}
+
+.index .overlap-3 {
+  height: 43px;
+  position: relative;
+  width: 117px;
+}
+
+.index .text-wrapper-4 {
+  color: #ffffff;
+    font-family: "Inknut Antiqua", Helvetica;
+    font-size: 12px;
+    font-weight: 200;
     left: 13px;
-    position: absolute;
-    top: 1px;
-    width: 347px;
-  }
-  
-  .frame .img {
-    height: 83px;
-    left: 298px;
-    position: absolute;
-    top: 0;
-    width: 131px;
-  }
-  
-  .frame .line {
-    height: 146px;
-    left: 255px;
-    position: absolute;
-    top: 0;
-    width: 207px;
-  }
-  
-  .frame .vector-2 {
-    height: 63px;
-    left: 275px;
-    position: absolute;
-    top: 753px;
-    width: 97px;
-  }
-  
-  .frame .vector-3 {
-    height: 271px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 361px;
-  }
-  
-  .frame .logo {
-    height: 192px;
-    left: 485px;
-    object-fit: cover;
-    position: absolute;
-    top: 23px;
-    width: 270px;
-  }
-  
-  .frame .text-wrapper {
-    color: #2acfd1;
-    font-family: "Inknut Antiqua-Regular", Helvetica;
-    font-size: 67px;
-    font-weight: 400;
-    left: 317px;
-    letter-spacing: 6.03px;
-    line-height: normal;
-    position: absolute;
-    top: 126px;
-  }
-  
-  .frame .in-recognition-of {
-    color: #000000;
-    font-family: "IM FELL Great Primer-Regular", Helvetica;
-    font-size: 24px;
-    font-weight: 400;
-    left: 287px;
-    letter-spacing: 1.92px;
-    line-height: 35.7px;
-    position: absolute;
-    text-align: center;
-    top: 444px;
-    width: 684px;
-  }
-  
-  .frame .appreciation {
-    height: 75px;
-    left: 428px;
-    position: absolute;
-    top: 242px;
-    width: 360px;
-  }
-  
-  .frame .div {
-    height: 75px;
-    position: relative;
-    width: 358px;
-  }
-  
-  .frame .text-wrapper-2 {
-    color: #003466;
-    font-family: "Inknut Antiqua-Medium", Helvetica;
-    font-size: 29px;
-    font-weight: 500;
-    left: 0;
-    letter-spacing: 2.32px;
+    width: 221px;
+    letter-spacing: 1.08px;
     line-height: normal;
     position: absolute;
     top: 0;
-  }
-  
-  .frame .line-2 {
-    height: 1px;
-    left: 10px;
+}
+
+.index .text-wrapper-5 {
+  color: #2acfd1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  left: 49px;
+  letter-spacing: 0.96px;
+  line-height: normal;
+  position: absolute;
+  top: 26px;
+}
+
+.index .line-2 {
+  height: 2px;
+  left: 15px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 102px;
+}
+
+.index .line-3 {
+  height: 3px;
+    left: 421px;
     object-fit: cover;
     position: absolute;
-    top: 66px;
-    width: 339px;
-  }
-  
-  .frame .line-3 {
-    height: 1px;
-    left: 327px;
-    object-fit: cover;
-    position: absolute;
-    top: 430px;
-    width: 598px;
-  }
-  
-  .frame .areesha-lead {
-    height: 68px;
-    left: 358px;
-    position: absolute;
-    top: 708px;
-    width: 269px;
-  }
-  
-  .frame .overlap-2 {
-    height: 68px;
-    position: relative;
-    width: 265px;
-  }
-  
-  .frame .text-wrapper-3 {
-    color: #003466;
-    font-family: "Inknut Antiqua-SemiBold", Helvetica;
-    font-size: 24px;
-    font-weight: 600;
-    left: 0;
-    letter-spacing: 2.16px;
-    line-height: normal;
-    position: absolute;
-    top: 0;
-  }
-  
-  .frame .text-wrapper-4 {
-    color: #000000;
-    font-family: "IM FELL Great Primer-Regular", Helvetica;
-    font-size: 18px;
-    font-weight: 400;
-    left: 98px;
-    letter-spacing: 1.44px;
-    line-height: normal;
-    position: absolute;
-    top: 46px;
-  }
-  
-  .frame .line-4 {
-    height: 3px;
-    left: 23px;
-    object-fit: cover;
-    position: absolute;
-    top: 3px;
-    width: 216px;
-  }
-  
-  .frame .rectangle {
-    height: 370px;
-    left: 0;
-    position: absolute;
-    top: 446px;
-    width: 509px;
-  }
-  
-  .frame .polygon {
-    height: 386px;
-    left: 0;
-    position: absolute;
-    top: 430px;
-    width: 426px;
-  }
-  
-  .frame .polygon-2 {
-    height: 395px;
-    left: 0;
-    position: absolute;
-    top: 234px;
-    width: 159px;
-  }
-  
-  .frame .vector-4 {
-    height: 197px;
-    left: 0;
-    position: absolute;
-    top: 422px;
-    width: 154px;
-  }
-  
-  .frame .line-5 {
-    height: 127px;
-    left: 218px;
-    position: absolute;
-    top: 689px;
-    width: 180px;
-  }
-  
-  .frame .p {
-    color: #000000;
-    font-family: "IM FELL Great Primer-Regular", Helvetica;
-    font-size: 24px;
-    font-weight: 400;
-    left: 433px;
-    letter-spacing: 1.92px;
-    line-height: normal;
-    position: absolute;
-    top: 318px;
-  }
-  
-  .frame .hamzah-lead {
-    height: 72px;
-    left: 720px;
-    position: absolute;
-    top: 708px;
-    width: 238px;
-  }
-  
-  .frame .overlap-3 {
-    height: 72px;
-    position: relative;
-    width: 234px;
-  }
-  
-  .frame .text-wrapper-5 {
-    color: #000000;
-    font-family: "IM FELL Great Primer-Regular", Helvetica;
-    font-size: 18px;
-    font-weight: 400;
-    left: 82px;
-    letter-spacing: 1.44px;
-    line-height: normal;
-    position: absolute;
-    top: 50px;
-  }
-  
-  .frame .line-6 {
-    height: 4px;
-    left: 0;
-    object-fit: cover;
-    position: absolute;
-    top: 5px;
-    width: 219px;
-  }
-  
+    top: 203px;
+    width: 237px;
+}
+
+.index .text-wrapper-6 {
+  color: #ffffff;
+  font-family: 'Italianno', cursive;
+  font-size: 37px;
+  font-weight: 400;
+  left: 441px;
+  letter-spacing: 2.96px;
+  line-height: 55.1px;
+  position: absolute;
+  text-align: center;
+  top: 165px;
+  white-space: nowrap;
+}
